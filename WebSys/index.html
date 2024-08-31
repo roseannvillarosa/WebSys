@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebSys</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="grid-layout">
+    <header class="px-4 bg-slate-50 py-2 fixed w-full">
+      <nav class="flex items-center justify-between h-full">
+        <img src="/images/image.png" alt="" class="w-10">
+
+        <a class="font-medium" href="#">PFIT03</a>
+      </nav>
+    </header>
+
+    <aside class="fixed h-full top-10 w-64">
+      <h2 class="text-lg text-center">Activities</h2>
+
+      <nav class="mt-4 px-4 h-full overflow-y-auto">
+        <li class="text-indigo-500">HTML and CSS</li>
+        <ul class="flex flex-col  px-4">
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Semantic HTML</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md"><a href="#">HTML Floating Layout </a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md"><a href="#">CSS Grid System </a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md"><a href="#">CSS Flexbox</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md"><a href="#">CSS Positioning</a></li>
+        </ul>
+
+        <li class="text-indigo-500 mt-2">Basic Javascript</li>
+        <ul class="px-4">
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Variables and Data Types</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Functions</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Control Statements</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Arrays and Objects</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Loops</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Class</a></li>
+        </ul>
+
+        <li class="text-indigo-500 mt-2">CSS Libraries</li>
+        <ul class="px-4">
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Bootstrap</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Material Design</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Tailwind</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Bootstrap</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Material Design</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Tailwind</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Bootstrap</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Material Design</a></li>
+          <li class="text-sm hover:bg-slate-100 p-2 rounded-md "><a href="#">Tailwind</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="border-slate-200 border rounded-lg shadow-md m-2 p-4">
+      <section>
+        <h4 class="text-lg topic">Semantic HTML</h4>
+        <p>
+          These are the different semantic tags added on HTML 5.
+        </p>
+
+        <div class="rounded-sm border p-2 mt-2">
+          <pre>
+
+            <b class="text-red-500">Header usually contains the brand, logo or top navigation bar.</b>
+            &lt;header&gt;&lt;/header&gt;
+
+            <b class="text-red-500">Aside means "other than that" or "aside from that", usually used for side navigation</b>
+            &lt;aside&gt;&lt;/aside&gt;
+
+            <b class="text-red-500">Contains the main content of the page, tells what the page all about.</b>
+            &lt;main&gt;&lt;/main&gt;
+            
+            &lt;footer&gt;&lt;/footer&gt;
+            &lt;section&gt;&lt;/section&gt;
+            &lt;article&gt;&lt;/article&gt;
+          </pre>
+        </div>
+      </section>
+
+      <section class="mt-8">
+        <h4 class="text-lg topic">HTML Floating Layout</h4>
+        <p>Using the css property:</p>
+
+        <pre class="mt-2">
+          floating: left;   //or right
+        </pre>
+      </section>
+    </main>
+
+    <footer class="text-right fixed w-full bottom-0 py-2 px-4 bg-slate-50">
+      <p class="text-xs text-slate-400">Practical Activity for PFIT 03 - Web Systems and Technology</p>
+    </footer>
+  </div>
+</body>
+
+</html>
